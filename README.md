@@ -1,0 +1,1 @@
+# common_project_mobile_view
