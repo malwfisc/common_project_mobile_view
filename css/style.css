@@ -1,6 +1,7 @@
 /* For mobile phones: */
 html{
     scroll-behavior: smooth;
+    font-size: 18px;
 }
 
 /* navigation */
@@ -45,16 +46,13 @@ nav #current {
     transition: top 1s ease-out;
     z-index: 1;
     border-radius: 5px;
+    position: absolute;
+    top: -40px;
   }
 
 .skip a:focus {
     top: 10px;
 }
-
-.skip a{
-    position: absolute;
-    top: -40px;
-  }
   
 /* focus */
 
@@ -120,6 +118,8 @@ ol li {
     position: relative;
     left: 40px;
     transition: background-color 2s ease-out 100ms;
+    padding-right: 50px;
+    margin-right: 50px;
 }
 
 ol li:before {
@@ -142,6 +142,8 @@ main ul li {
     position: relative;
     left: 40px;
     transition: background-color 2s ease-out 100ms;
+    padding-right: 50px;
+    margin-right: 50px;
 }
   
 main ul li:before {
